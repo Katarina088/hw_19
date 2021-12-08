@@ -56,11 +56,11 @@
       <h1 class="text-center text-uppercase p-5">23 april, tuesday</h1>
     </div>    
 
-    <div class="list-group list-group-horizontal">
-      <a href="#" class="list-group-item list-group-item-action link-dark ">
+    <div class="list-group list-group-horizontal m-2">
+      <a href="#" class="list-group-item list-group-item-action">
         1 Lesson
       </a>
-      <a href="#" class="link-secondary">2 Lesson</a>
+      <a href="#" class="list-group-item list-group-item-action">2 Lesson</a>
       <a href="#" class="list-group-item list-group-item-action">3 Lesson</a>
       <a href="#" class="list-group-item list-group-item-action">4 Lesson</a>
       <a href="#" class="list-group-item list-group-item-action">5 Lesson</a>
@@ -69,10 +69,53 @@
       <a href="#" class="list-group-item list-group-item-action">8 Lesson</a>      
     </div>
 
-    <div class="row mt-5">
-      <div class="col">
+    <div class="d-flex p-2 m-3 bd-highlight justify-content-around">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid d-flex flex-column p-2">
+          <div class="navbar-text">
+            Group
+          </div>
+          <div>
+            ABC-1234
+          </div>
+        </div>
+      </nav>      
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid d-flex flex-column p-2">
+            <div class="navbar-text">
+              Subject
+            </div>
+            <div>
+              HTML&CSS
+            </div>
+          </div>
+        </nav>
+      <nav class="navbar navbar-light bg-light w-25">
+        <form class="container-fluid justify-content-start">
+          <div class="container-fluid">
+            <span class="navbar-text">
+              Lesson topic
+            </span>
+          </div>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="">        
+        </form>
+      </nav>
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid justify-content-start">
+          <div class="container-fluid">
+            <span class="navbar-text">
+              Homework
+            </span>
+          </div>
+          <button class="btn btn-primary me-5" type="button">Add homework</button>        
+        </form>
+      </nav>    
+    </div>
+
+    <div class="row">
+      <div class="col m-3">
         <table class="table table-striped">
-          <thead class="border border-bottom primary">
+          <thead class="border border-bottom">
             <tr class="table-primary text-white text-start border-bottom-0">
               <th scope="col">#</th>
               <th scope="col" class="w-15">Name</th>
@@ -90,13 +133,13 @@
               <td class="text-center">10</td>
               <td class="text-center">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-success custom-btn" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>                  
+                  <input class="form-check-input custom-btn border border-success" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">                  
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-warning custom-btn" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
+                  <input class="form-check-input custom-btn border border-warning" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-danger custom-btn" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
+                  <input class="form-check-input  custom-btn border border-danger" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
                 </div>
               </td>
               <td>
@@ -154,14 +197,15 @@
               <td class="text-center">9</td>
               <td class="text-center">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-success custom-btn" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>                  
+                  <input class="form-check-input custom-btn border border-success" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">                  
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-warning custom-btn" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
+                  <input class="form-check-input custom-btn border border-warning" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-danger custom-btn" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
+                  <input class="form-check-input  custom-btn border border-danger" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
                 </div>
+              </td>
               </td>
               <td>
                 <div class="dropdown text-center">
@@ -218,13 +262,13 @@
               <td class="text-center">11</td>
               <td class="text-center">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-success custom-btn" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>                  
+                  <input class="form-check-input custom-btn border border-success" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">                  
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-warning custom-btn" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
+                  <input class="form-check-input custom-btn border border-warning" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-danger custom-btn" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
+                  <input class="form-check-input  custom-btn border border-danger" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
                 </div>
               </td>
               <td>
@@ -282,13 +326,13 @@
               <td class="text-center">8</td>
               <td class="text-center">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-success custom-btn" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>                  
+                  <input class="form-check-input custom-btn border border-success" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">                  
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-warning custom-btn" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
+                  <input class="form-check-input custom-btn border border-warning" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>                 
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input btn-danger custom-btn" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
+                  <input class="form-check-input  custom-btn border border-danger" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>                  
                 </div>
               </td>
               <td>
